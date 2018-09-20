@@ -6,6 +6,7 @@
 using namespace std;
 
 //Problem Description: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+//This is implemented in 2 different ways, 1st solution jas a complexity of O(n) and 2nd solution should be O(n^2)
 
 int lenOfLongestSubStringNonRepeat(const string& str)
 {

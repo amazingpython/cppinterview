@@ -44,7 +44,7 @@ struct heap {
 	{
 		uint16_t t = size;
 		while (t > 0) {
-            if(data[(t-1)/2] > data[t]) //root > child
+		if(data[(t-1)/2] > data[t]) //root > child
 			swap(data[t], data[(t-1)/2]);
 		}
 	}
@@ -54,7 +54,7 @@ struct heap {
 		uint16_t t = 0;
 		while (t < size/2)
 		{
-            if (hasLeftChild(t) && data[t] > data[2*t+1])
+			if (hasLeftChild(t) && data[t] > data[2*t+1])
                 swap(data[t], data[2*t+1]);
 			if (hasRightChild(t) && data[t] > data[2*t+2])
 				swap(data[t], data[2*t+2]);

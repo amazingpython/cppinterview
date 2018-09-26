@@ -6,6 +6,11 @@
  * This function display the nodes of a binary tree in their vertical segments. Say for example, the below tree will be displayed as
  * 4 2 1 5 6 3 7
  *
+ *                                       1
+ *                                  2         3
+ *                              4       5 6       7
+ *
+ * This above tree will be represented as below in vertical order
  *
  *                              -2| -1|  0  | 1 | 2
  *                             ---------------------

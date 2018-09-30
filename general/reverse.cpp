@@ -3,6 +3,9 @@
 #include <math.h>
 #include <climits>
 
+/**
+ * This reverse an integer, with 32 bit limits
+ */
 using namespace std;
 
 int reverse(int x) {

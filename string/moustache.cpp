@@ -1,3 +1,10 @@
+/**
+ * This validate mustache string, basically compare a template string.
+ * valid string: "{{#enable}} testing {{^notable}} {{/notable}} {{/enable}}"
+ * invalid string: "{{#enable}} testing {{^notable}} {{/enable}}"
+ * invalid string: "{{/enable}}
+ */
+
 #include <iostream>
 #include <string>
 #include <stack>

@@ -46,6 +46,9 @@ int main()
 			}
 		}
 	}
+	if (!ss.empty()) {
+        cout << "Error in input string" << endl;
+	}
 
 	return 0;
 }
